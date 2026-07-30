@@ -83,12 +83,7 @@ http://localhost:8080
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| GET | `/menus` | Get all menus |
-| GET | `/menus/{id}` | Get menu by ID |
-| POST | `/menus` | Create menu |
-| PUT | `/menus/{id}` | Update menu |
-| DELETE | `/menus/{id}` | Delete menu |
-
+| GET | `/menus/search?keyword=` | Search Menu by keyword |
 ---
 
 ## Order
@@ -98,14 +93,6 @@ http://localhost:8080
 | GET | `/orders/topFive` | Get top 5 highest order |
 | POST | `/orders/createOrder` | Create new order |
 | GET | `/orders` | Get all orders |
-
----
-
-## Menu
-
-| Method | Endpoint | Description |
-|---------|----------|-------------|
-| GET | `/menus/search` | search menu by keyword |
 
 ---
 
